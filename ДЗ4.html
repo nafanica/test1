@@ -1,0 +1,60 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Homework 4 Forms</title>
+</head>
+
+<body>
+	<h1 class="heading"> Форма </h1>
+	<form id="form">
+		<fieldset>
+		
+		<legend> Введите следующие данные </legend>
+		<label for="name">Name: </label><br>
+			<input type="text" maxlength="10" id="name" name="name" class="input" placeholder="Ваше имя"/>
+			
+		<div>	<input type="tel" id="tel" name="tel" class="input" placeholder="Ваш телефон"/></div>
+			
+			<div>	<input type="email" id="email" name="email" class="input" placeholder="Ваш email"/></div>
+			
+			<div>	<textarea id="textarea" name="textarea" maxlength="40" class="textarea" placeholder="Ваше сообщение"> </textarea></div>
+			
+			<br>
+		
+			
+			<label for="file"> </label>
+			<input type="file" id="file">
+			
+			<br>
+			<br>
+			
+			<label for="sel"> Выберите день </label>
+			<select id="sel"> 
+			
+			<br>
+				
+			<option> понедельник </option>
+			<option> вторник </option>
+			<option> среда </option>
+			<option> четверг </option>
+			<option> пятница </option>
+			<option> суббота </option>
+			<option> воскресенье </option>
+			</select>
+			
+			<br>		
+			
+			<label> <input type="radio" name="radio" value="radio1"> с 8 до12 </label>
+			<label> <input type="radio" name="radio" value="radio2"> с 12 до 16 </label>
+			<label> <input type="radio" name="radio" value="radio3"> с 16 до 20 </label>
+			
+			<br>
+			<br>
+			
+			<button id="btn"> Отправить </button>
+			
+		</fieldset>
+	</form>
+</body>
+</html>
