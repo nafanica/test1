@@ -1,0 +1,8 @@
+User-agent:*
+Disallow:/no-index/contact-page.html
+Disallow:/*.pdf$
+
+User-agent: Google
+
+Allow:/no-bots/company-page.html
+Sitemap: http://site.ua/sitemap-1.xml
