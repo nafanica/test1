@@ -1,34 +1,16 @@
-p {
-    text-align: center;
-    color: #18e2e2;
-    font-family:Arial, Helvetica, sans-serif;
-font-size:40px;
+
+.text1{
+	position: absolute;
+	top: -60px;
+	left: 150px;
+	font-family: URW Chancery L, cursive;
+	font-weight: 900;
+	font-size: 70px;
+	color: #ff4d4d;
 }
-h1 {
-    text-align: center;
-      color: #69087a;
-      font-family:Arial, Helvetica, sans-serif;
-font-size:60px;
-    }
 
-
-
-div{
-height:800px;
-	background-image: url(https://t-ec.bstatic.com/images/hotel/max1024x768/163/16386714.jpg);
-        background-attachment: scroll;
-        background-size: 100%;
-        background-repeat:no-repeat;
-
-	}
-
-
-.form
-{
-
- color: white;
-  background: rgb(230,229,225) linear-gradient(rgb(3,239,255), rgb(234,23,248));
- padding: .5em 40em;
-  border: 3px solid;
-
+.content{
+	position: relative;
+	left: 60px;
 }
+
