@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Aquarelle';
+    src: url('Aquarelle.woff2') format('woff2'),
+        url('Aquarelle.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
