@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+			xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+	<url>
+		<loc>https://prom.ua</loc>
+		<lastmod>2019-05-08</lastmod>
+		<chanfreq>always</chanfreq>
+		<priority>0.9</priority>
+	</url>
+
+	<url>
+		<loc>https://prom.ua/about_us</loc>
+		<lastmod>2019-05-08</lastmod>
+		<chanfreq>always</chanfreq>
+		<priority>0.6</priority>
+	</url>
+
+	<url>
+		<loc>https://prom.ua/contact_us</loc>
+		<lastmod>2019-05-08</lastmod>
+		<chanfreq>always</chanfreq>
+		<priority>0.8</priority>
+	</url>
+
+	<url>
+		<loc>https://prom.ua/how_to_buy</loc>
+		<lastmod>2019-05-08</lastmod>
+		<chanfreq>always</chanfreq>
+		<priority>0.5</priority>
+	</url>
+
+
+	<url>
+		<loc>https://prom.ua/</loc>
+		<image:image>
+			<image:loc>https://uaprom-static.c.prom.st/image/portal/UA/logo-hced43d3faf9a09dac8d0264c4d01013ee.svg</image:loc>
+		</image:image>
+	</url>
