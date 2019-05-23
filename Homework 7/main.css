@@ -1,0 +1,28 @@
+.c1 {
+    width: 100%;
+    height: 600px;
+    background: #ebebeb;
+}
+
+.c2 {
+    width: 100%;
+    height: 600px;
+    background: url(https://www.royal-canin.ru/upload/medialibrary/1b2/sterilfeed_728.jpg);
+    background-attachment: fixed;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c3 {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://sciencepop.ru/wp-content/uploads/2017/05/shutterstock_499196506.jpg);
+    background-position: left;
+    background-image: url(https://sciencepop.ru/wp-content/uploads/2017/05/shutterstock_499196506.jpg);
+    background-position: center;
+    background-image: url(https://sciencepop.ru/wp-content/uploads/2017/05/shutterstock_499196506.jpg);
+    background-position: right;
+    background-size: contain;
+
+}
