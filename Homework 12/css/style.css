@@ -1,0 +1,43 @@
+body{
+	 margin: 0;
+	 padding: 0;
+	 background-image: url("https://vignette.wikia.nocookie.net/no-mans-sky/images/4/44/Blue2_space.jpg/revision/latest?cb=20170402162756&path-prefix=ru");
+}
+
+.planet{
+	width: 450px;
+	padding: 100px;
+	position: relative;
+	 z-index:1;
+	 transition: transform 6s linear;
+	 
+}
+
+.planet:hover {
+	 transform: rotate(360deg) infinite;
+}
+
+.moon{
+width: 60px;
+    position: absolute;
+	top: 170px;
+	left: 170px;
+	animation: linear 5s orbita infinite;
+	z-index:0;
+}
+
+
+@keyframes orbita{
+	0%{}
+	24%{z-index:0;}
+	25%{left: 400px; top: 130px; z-index:2;}
+	50%{width: 120px;}
+	74%{z-index:2;}
+	75%{top: 300px; left: 0; z-index:0;}
+	100%{transform: rotate(360deg);}
+	
+}
+
+
+
+
