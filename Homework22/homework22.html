@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 22</title>
+</head>
+<body>
+
+</body>
+<script>
+
+var person={
+
+name: 'Gregor.',
+age:'30.',
+work_address:'Ukraine, Dnipro, Dmitry Yavornitskogo street.',
+post :'49000.',
+information: function(){  alert(" Name: " + this.name +
+    " Age: " + this.age + " Work address: " + this.work_address + " postal code: " + this.post);
+}
+}
+person.information();
+
+var age = +prompt("How old are you?");
+if (age>=18){
+	function foo(){
+		alert('Welcome');
+	}
+}else{
+	function foo(){
+		alert('Sorry')
+	}
+}
+foo();
+
+function greeting (firstName, lastName){
+	alert("Welcome, " + getFullName());
+	alert("Dont go, " + getFullName());
+	function getFullName(){
+	return firstName + " " + lastName;
+	}
+}
+greeting ('i','am')
+
+
+</script>
+</html>
