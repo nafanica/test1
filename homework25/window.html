@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Window properties - method</title>
+</head>
+<script>
+  var win;
+
+  function winop(){
+  	win=window.open();
+  	}
+  function checkwin(){
+  	if(!win)
+  	document.getElementById('mes').innerHTML ='Окно не было открыто';
+  	else
+  	if(win.closed)
+  	document.getElementById('mes').innerHTML ='Окно было закрыто';
+  	else
+  	document.getElementById('mes').innerHTML ='Окно  открыто в данный момент';
+  	}
+
+  </script>
+  <body>
+
+  <input type="button" value="Открыть окно" onClick="winop()" /><br />
+  <input type="button" value="Проверить открыто ли окно" onClick="checkwin()" /><br />
+  <div id="mes"></div>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/xGNqxcgikGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6YeCbrtU15s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xJZdMHjUNTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
+    </body>
+  <script>
+
+  		document.write(frames[0].name+ '<br />');
+  		document.write(frames[1].name);
+  
+  </script>
+  </html>

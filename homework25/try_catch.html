@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>try catch</title>
+</head>
+
+<body>
+</body>
+<script>
+    try{
+alert('Start of try runs');
+a;
+alert('End of try runs--never reached')
+  }
+  catch(e){
+  alert('Error has occured'+ e.name + ":" + e.message + "\n" + e.stack);
+  }
+alert('Than the execution continues');
+
+</script>
+</html>
